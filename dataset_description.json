@@ -1,0 +1,14 @@
+{
+  "Name": "data_axondeepseg_stanford",
+  "BIDSVersion": "1.9.0",
+  "Authors": [
+    "Armand Collin",
+    "Brad Zuchero",
+    "Tom Soulaire",
+    "Tal Iram",
+    "Miguel A. Garcia",
+    "Danielle M. Jorgens",
+    "Julien Cohen-Adad",
+    "Mathieu Guay-Paquet"
+  ]
+}

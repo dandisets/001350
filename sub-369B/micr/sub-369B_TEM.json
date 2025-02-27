@@ -1,0 +1,10 @@
+{
+    "BodyPart": "BRAIN",
+    "BodyPartDetails": "corpus callosum",
+    "SampleEnvironment": "ex vivo",
+    "PixelSize": [
+        0.00493,
+        0.00493
+    ],
+    "PixelSizeUnits": "um"
+}

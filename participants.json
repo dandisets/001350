@@ -1,0 +1,11 @@
+{
+    "participant_id": {
+        "Description": "Unique participant ID"
+    },
+    "species": {
+        "Description": "Binomial species name from the NCBI Taxonomy (https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi)"
+    },
+    "phenotype": {
+        "Description": "Phenotype of the participant. Either wild type (WT) or SRF-cKO (KO)"
+    }
+}

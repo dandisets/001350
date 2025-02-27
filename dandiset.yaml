@@ -7,9 +7,19 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_016124
+    name: Brain Imaging Data Structure (BIDS)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 1008562623
+  numberOfFiles: 132
+  numberOfSamples: 16
+  numberOfSubjects: 10
   schemaKey: AssetsSummary
+  species: []
+  variableMeasured: []
 citation: Collin, Armand (2025) TEM Images of Corpus Callosum in Flox/SRF-cKO Mice
   (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001350/draft
 contributor:

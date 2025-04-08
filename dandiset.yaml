@@ -10,6 +10,7 @@ about:
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: ''
 assetsSummary:
   approach: []
   dataStandard:

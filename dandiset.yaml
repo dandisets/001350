@@ -3,30 +3,60 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
-about: []
+about:
+- identifier: UBERON:0002336
+  name: Corpus Callosum
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_016124
+    name: Brain Imaging Data Structure (BIDS)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 1041046699
+  numberOfFiles: 134
+  numberOfSamples: 16
+  numberOfSubjects: 10
   schemaKey: AssetsSummary
-citation: Collin, Armand (2025) TEM Images of Corpus Callosum in Flox/SRF-cKO Mice
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001350/draft
+  species: []
+  variableMeasured: []
+citation: Collin, Armand; Soulaire, Tom; Zuchero, J. Bradley; Cohen-Adad, Julien (2025)
+  TEM Images of Corpus Callosum in Flox/SRF-cKO Mice (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/001350/draft
 contributor:
-- affiliation:
-  - name: NeuroPoly, Institute of Biomedical Engineering, Polytechnique Montréal
-    schemaKey: Affiliation
-  - name: Mila - Quebec AI Institute
-    schemaKey: Affiliation
-  email: armac@videotron.ca
-  identifier: 0009-0005-3258-122X
+- identifier: 0009-0005-3258-122X
   includeInCitation: true
   name: Collin, Armand
   roleName:
-  - dcite:ContactPerson
+  - dcite:Author
+  - dcite:DataCurator
+  - dcite:DataManager
   schemaKey: Person
-  url: www.github.com/hermancollin
+- includeInCitation: true
+  name: Soulaire, Tom
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: bzuchero@stanford.edu
+  identifier: 0000-0002-4706-2538
+  includeInCitation: true
+  name: Zuchero, J. Bradley
+  roleName:
+  - dcite:Researcher
+  - dcite:Supervision
+  schemaKey: Person
+- email: jcohen@polymtl.ca
+  identifier: 0000-0003-3662-9532
+  includeInCitation: true
+  name: Cohen-Adad, Julien
+  roleName:
+  - dcite:ContactPerson
+  - dcite:Supervision
+  schemaKey: Person
 dateCreated: '2025-02-27T22:42:16.138686+00:00'
 description: "This dataset contains 8000x transmission EM images of the Corpus Callosum
   in two groups of mice. The main goal of this project is to study unmyelinated axons.

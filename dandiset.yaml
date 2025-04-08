@@ -24,9 +24,10 @@ assetsSummary:
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
-citation: Collin, Armand; Soulaire, Tom; Zuchero, J. Bradley; Cohen-Adad, Julien (2025)
-  TEM Images of Corpus Callosum in Flox/SRF-cKO Mice (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/001350/draft
+citation: Collin, Armand; Soulaire, Tom; Iram, Tal; Garcia, Miguel; Jorgens, Danielle;
+  Guay-Paquet, Mathieu; Cohen-Adad, Julien; Zuchero, J. Bradley (2025) TEM Images
+  of Corpus Callosum in Flox/SRF-cKO Mice (Version draft) [Data set]. DANDI Archive.
+  https://dandiarchive.org/dandiset/001350/draft
 contributor:
 - identifier: 0009-0005-3258-122X
   includeInCitation: true
@@ -41,13 +42,32 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- email: bzuchero@stanford.edu
-  identifier: 0000-0002-4706-2538
+- identifier: 0000-0002-1606-2009
   includeInCitation: true
-  name: Zuchero, J. Bradley
+  name: Iram, Tal
   roleName:
+  - dcite:DataCollector
   - dcite:Researcher
-  - dcite:Supervision
+  schemaKey: Person
+- identifier: 0000-0003-4181-5372
+  includeInCitation: true
+  name: Garcia, Miguel
+  roleName:
+  - dcite:DataCollector
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0002-7143-0118
+  includeInCitation: true
+  name: Jorgens, Danielle
+  roleName:
+  - dcite:DataCollector
+  - dcite:Researcher
+  schemaKey: Person
+- email: mathieu.guay-paquet@polymtl.ca
+  includeInCitation: true
+  name: Guay-Paquet, Mathieu
+  roleName:
+  - dcite:DataCurator
   schemaKey: Person
 - email: jcohen@polymtl.ca
   identifier: 0000-0003-3662-9532
@@ -56,6 +76,15 @@ contributor:
   roleName:
   - dcite:ContactPerson
   - dcite:Supervision
+  schemaKey: Person
+- email: bzuchero@stanford.edu
+  identifier: 0000-0002-4706-2538
+  includeInCitation: true
+  name: Zuchero, J. Bradley
+  roleName:
+  - dcite:Researcher
+  - dcite:Supervision
+  - dcite:DataCollector
   schemaKey: Person
 dateCreated: '2025-02-27T22:42:16.138686+00:00'
 description: "This dataset contains 8000x transmission EM images of the Corpus Callosum

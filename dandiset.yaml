@@ -87,16 +87,16 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 dateCreated: '2025-02-27T22:42:16.138686+00:00'
-description: "This dataset contains 8000x transmission EM images of the Corpus Callosum
+description: 'This dataset contains 8000x transmission EM images of the Corpus Callosum
   in two groups of mice. The main goal of this project is to study unmyelinated axons.
   The technique used to prepare the samples is high pressure freezing and freeze substitution.
   This results in high-definition images where unmyelinated axons are remarkably visible.
-  Imaging was done at UC Berkeley. This data was originally used in https://www.pnas.org/doi/10.1073/pnas.2307250121.
+  Imaging was done at UC Berkeley. This dataset was derived from https://www.pnas.org/doi/10.1073/pnas.2307250121.
   The two mice groups are Wild Type (WT) and SRF conditional knockout (KO). There
-  are 5 animals per group for a total of 10 and multiple images per mouse.\nOriginal
-  magnification: 8000x\n\nThis dataset contains segmentation masks for the following
-  semantic classes:\n- (myelinated) axon\n- (unmyelinated) axon\n- myelin\n- oligodendrocyte
-  nucleus\n- oligodendrocyte process"
+  are 5 animals per group for a total of 10 and multiple images per mouse.Original
+  magnification: 8000xThis dataset contains segmentation masks for the following semantic
+  classes:- (myelinated) axon- (unmyelinated) axon- myelin- oligodendrocyte nucleus-
+  oligodendrocyte process '
 ethicsApproval: []
 id: DANDI:001350/draft
 identifier: DANDI:001350

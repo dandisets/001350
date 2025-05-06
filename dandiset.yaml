@@ -10,7 +10,6 @@ about:
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
-acknowledgement: ''
 assetsSummary:
   approach: []
   dataStandard:
@@ -115,7 +114,6 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001350/versions/draft/assets/
 name: TEM Images of Corpus Callosum in Flox/SRF-cKO Mice
-protocol: []
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset

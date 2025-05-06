@@ -91,12 +91,13 @@ description: 'This dataset contains 8000x transmission EM images of the Corpus C
   in two groups of mice. The main goal of this project is to study unmyelinated axons.
   The technique used to prepare the samples is high pressure freezing and freeze substitution.
   This results in high-definition images where unmyelinated axons are remarkably visible.
-  Imaging was done at UC Berkeley. This dataset was derived from https://www.pnas.org/doi/10.1073/pnas.2307250121.
-  The two mice groups are Wild Type (WT) and SRF conditional knockout (KO). There
-  are 5 animals per group for a total of 10 and multiple images per mouse.Original
-  magnification: 8000xThis dataset contains segmentation masks for the following semantic
-  classes:- (myelinated) axon- (unmyelinated) axon- myelin- oligodendrocyte nucleus-
-  oligodendrocyte process '
+  Imaging was done at UC Berkeley. This data was originally used in https://www.pnas.org/doi/10.1073/pnas.2307250121.  The
+  two mice groups are Wild Type (WT) and SRF conditional knockout (KO). There are
+  5 animals per group for a total of 10 and multiple images per mouse.  Original magnification:
+  8000x  This dataset includes segmentation masks for the following semantic classes:
+  (myelinated) axon, (unmyelinated) axon, myelin, oligodendrocyte nucleus and oligodendrocyte
+  processes.     Further details on a deep segmentation model trained on this dataset
+  can be found at https://github.com/axondeepseg/model_seg_unmyelinated_tem'
 ethicsApproval: []
 id: DANDI:001350/draft
 identifier: DANDI:001350

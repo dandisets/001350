@@ -26,8 +26,8 @@ assetsSummary:
   variableMeasured: []
 citation: Collin, Armand; Soulaire, Tom; Iram, Tal; Garcia, Miguel; Jorgens, Danielle;
   Guay-Paquet, Mathieu; Cohen-Adad, Julien; Zuchero, J. Bradley (2025) TEM Images
-  of Corpus Callosum in Flox/SRF-cKO Mice (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001350/draft
+  of Corpus Callosum in Flox/SRF-cKO Mice (Version 0.250511.1527) [Data set]. DANDI
+  Archive. https://doi.org/10.48324/dandi.001350/0.250511.1527
 contributor:
 - identifier: 0009-0005-3258-122X
   includeInCitation: true
@@ -99,8 +99,9 @@ description: 'This dataset contains 8000x transmission EM images of the Corpus C
   (myelinated) axon, (unmyelinated) axon, myelin, oligodendrocyte nucleus and oligodendrocyte
   processes.     Further details on a deep segmentation model trained on this dataset
   can be found at https://github.com/axondeepseg/model_seg_unmyelinated_tem'
+doi: 10.48324/dandi.001350/0.250511.1527
 ethicsApproval: []
-id: DANDI:001350/draft
+id: DANDI:001350/0.250511.1527
 identifier: DANDI:001350
 keywords:
 - TEM
@@ -114,7 +115,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001350/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001350/0.250511.1527/assets.yaml
 name: TEM Images of Corpus Callosum in Flox/SRF-cKO Mice
 publishedBy:
   endDate: '2025-05-11T15:27:55.922218+00:00'
@@ -134,6 +135,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.9
 studyTarget:
 - Role of SRF transcription factor in CNS myelination
-url: https://dandiarchive.org/dandiset/001350/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001350/0.250511.1527
+version: 0.250511.1527
 wasGeneratedBy: []

@@ -87,6 +87,7 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 dateCreated: '2025-02-27T22:42:16.138686+00:00'
+datePublished: '2025-05-11T15:27:55.922218+00:00'
 description: 'This dataset contains 8000x transmission EM images of the Corpus Callosum
   in two groups of mice. The main goal of this project is to study unmyelinated axons.
   The technique used to prepare the samples is high pressure freezing and freeze substitution.
@@ -115,6 +116,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001350/versions/draft/assets/
 name: TEM Images of Corpus Callosum in Flox/SRF-cKO Mice
+publishedBy:
+  endDate: '2025-05-11T15:27:55.922218+00:00'
+  id: urn:uuid:a9a8770c-c46c-43c7-b2eb-00ab0e4e9192
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-05-11T15:27:55.922218+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:53b74581-0ccb-4088-895f-7e0955d54a36
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
